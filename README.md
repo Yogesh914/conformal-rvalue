@@ -1,1 +1,1 @@
-# Conformal-Like Coverage for Vision and Language Models with $r$-value
+# Empirical Bayes Conformal Prediction for Vision and Language Models
