@@ -129,6 +129,9 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+!.env.example
+!**/.env.example
 .venv
 env/
 venv/
@@ -172,3 +175,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Repo-local experiment outputs and local tooling
+.codex
+clip_setup/data/
+vit_setup/data/
+vit_setup/outputs/
+vit_setup/*.pkl
+llm_setup/data/
+llm_setup/logs/
+llm_setup/output/
+llm_setup/results/
+llm_setup/csv_results/
+llm_setup/csv_results_gpqa/
+llm_setup/for_plot/
+llm_setup/for_rscript/
+llm_setup/*_gpqa/
+llm_setup/llama1b/
+llm_setup/llama3b/
+llm_setup/mistral7b/
+llm_setup/phi35/
+llm_setup/qwen7b/
+llm_setup/*.npy
+llm_setup/*.pkl
