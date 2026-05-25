@@ -1,6 +1,6 @@
 # Empirical Bayes Conformal Prediction for Vision and Language Models
 
-Code accompanying the paper *Empirical Bayes Conformal Prediction for Vision and Language Models*.
+Code accompanying the paper [*Empirical Bayes Conformal Prediction for Vision and Language Models*](https://arxiv.org/abs/2605.23189).
 
 The paper studies `r-value` conformal prediction as an uncertainty-aware alternative to standard conformal prediction (`CP`) and average-then-conformal baselines (`CPavg`). The key idea is to rank classes or responses using both score level and score variability, then calibrate those rankings with conformal prediction to obtain valid coverage sets.
 
